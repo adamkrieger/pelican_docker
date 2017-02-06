@@ -2,4 +2,4 @@
 
 Sets up a volume connecting to /usr/src. Default command is:
 
-`pelicant content -s ./pelicanconf.py`
+`pelican content -s ./pelicanconf.py`
