@@ -8,5 +8,5 @@ RUN ["pip", "install", "-r", "requirements.txt"]
 
 VOLUME ["/usr/src"]
 
-CMD ["pelican", "content"]
+CMD ["pelican", "content", "-s", "./pelicanconf.py"]
 
